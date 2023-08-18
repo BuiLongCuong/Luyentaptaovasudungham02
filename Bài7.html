@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<b>Bài 7: Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.</b>
+<script>
+let num1=+prompt("Nhập 1 số a:");
+let num2=+prompt("Nhập 1 số b:");
+hoandoi(num1,num2);
+function hoandoi(a, b){
+    a=a+b;//7+3=10
+    b=a-b;//10-3=7
+    a=a-b;//10-7=3
+    document.write(`<br> Số a là ${num1}`);
+    document.write(`<br> Số b là ${num2}`);
+}
+</script>
+</body>
+</html>

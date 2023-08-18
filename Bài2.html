@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<b>Bài 2: Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được</b>
+<script>
+    function tinhdientich(r){
+        S= Pi*r*r;
+        return S;
+    }
+    function tinhchuvi(r){
+        CV= r*2*Pi;
+        return CV;
+    }
+const Pi=3.14;
+    let a=+prompt("Nhập độ dài của bán kính:");
+    tinhdientich(a);
+    tinhchuvi(a);
+    document.write(`<br> Diện tích của hình tròn là ${S} <br>`);
+    document.write(`Chu vi của hình tròn là ${CV}`);
+</script>
+</body>
+</html>

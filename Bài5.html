@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<b>Bài 5: Viết hàm nhận vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất.</b>
+<script>
+    let num1=+prompt("Nhập 1 số a:")
+    let num2=+prompt("Nhập 1 số b:")
+    let num3=+prompt("Nhập 1 số c:")
+function timmax(a,b,c){
+        if (a<b && a<c){
+            min =a;
+        } else if (b<c){
+            min =b;
+        }else {
+            min =c;
+        }
+    return min;
+}
+timmax(num1,num2,num3)
+document.write(min);
+</script>
+</body>
+</html>
